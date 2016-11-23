@@ -1,0 +1,56 @@
+.card-container {
+    position: relative;
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    background: #1b1b1c url(../assets/background.png);
+}
+
+.card-container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.card-list {
+    float: left;
+    width: 900px;
+}
+
+.card-list-item {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    background: #17202A;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.card-list-item:hover {
+    background: #0E141A;
+}
+
+.card-list-item.active {
+    background: #0E141A;
+    border: 1px solid #2ECC71;
+}
+
+.list-item-image {
+    max-width: 100%;
+}
+
+.list-item-name {
+    margin-top: 10px;
+    text-align: center;
+    color: #2ecc71;
+}
+
+.list-item-info {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+.list-item-caption {
+    font-size: 13px;
+    color: #bdc3c7;
+}

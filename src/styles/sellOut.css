@@ -1,0 +1,40 @@
+.sellout-container {
+
+}
+
+.sellout-caption {
+    display: inline-block;
+}
+
+.sellout-item-name {
+    width: 70%;
+    color: #3FC380;
+}
+
+.sellout-item-price {
+    width: 20%;
+}
+
+.sellout-item-remove {
+    width: 10%;
+    color: #F22613;
+    cursor: pointer;
+}
+
+.cart-buy-container {
+    margin-bottom: 10px;
+}
+
+.cart-buy-btn {
+    padding: 10px 15px;
+    color: #c3c3c3;
+    background: #181818;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cart-buy-btn:hover {
+    background: #0E141A;
+}
+

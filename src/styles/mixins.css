@@ -1,0 +1,17 @@
+.clear::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+.item-container {
+  padding: 15px;
+}

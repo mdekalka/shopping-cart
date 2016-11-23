@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-React/Redux shopping cart for interview
+## React/Redux shopping cart for the interview
 
-Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
